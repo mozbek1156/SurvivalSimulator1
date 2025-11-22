@@ -186,7 +186,7 @@ void tehlike_dalgasi() {
     for (int tur = 1; tur <= dalga_boyutu; tur++) {
         if (karakter_oldu_mu()) break;
         
-        printf("  [Tur %d]: ", tur);
+        printf("\n  [Tur %d]: ", tur);
         int hasar_sans = rand() % 100;
         int temel_hasar = (rand() % 8) + 3; // 3-10 arası temel hasar
         
